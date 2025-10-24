@@ -145,29 +145,6 @@ Menampilkan statistik sistem agregator.
 
 ---
 
-## 🧪 Stress Test (5000 Events)
-
-Gunakan `stress_test.py` untuk menguji performa dan dedup:
-
-```bash
-python stress_test.py
-```
-
-Contoh output:
-
-```
-Starting stress test with 5000 events (20% duplicates)...
-Completed 5000 requests in 6.25s (800.00 events/sec)
-```
-
-Cek statistik hasilnya di:
-
-```
-GET http://localhost:8080/stats
-```
-
----
-
 ## 📘 Spesifikasi Teknis
 
 | Komponen      | Teknologi                    |
