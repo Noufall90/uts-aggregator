@@ -181,10 +181,9 @@ GET http://localhost:8080/stats
 
 ---
 
-## 🧠 Catatan Desain
+## Video Youtube
 
-* **Deduplication key:** kombinasi `(topic, event_id)`
-* **Persistence:** SQLite untuk mencegah reprocessing setelah restart
-* **Reliability:** sistem tetap konsisten walau ada *duplicate delivery*
-* **Scalability:** mendukung batch processing & concurrency dengan `asyncio`
 
+```
+https://youtu.be/_fCYRU0EJ78
+```
