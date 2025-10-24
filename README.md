@@ -151,7 +151,7 @@ Menampilkan statistik sistem agregator.
 | ------------- | ---------------------------- |
 | Bahasa        | Python 3.11                  |
 | Framework     | FastAPI                      |
-| Database      | SQLite (via aiosqlite)       |
+| Database      | SQLite                       |
 | Container     | Docker                       |
 | Arsitektur    | Pub-Sub, Idempotent Consumer |
 | Tipe Delivery | At-least-once                |
